@@ -7,7 +7,7 @@ using namespace std;
 #define N 10            // Column size of maze
 #define M 10            // Row size of maze
 
-int n = N, m = M;       // maze of n*m matrix
+int n = N , m = M;       // maze of n*m matrix
 int ix=0,iy=0;          // initial position of rat
 int fx=9,fy=0;          // coordinates of food
 bool visited[N][M];     // Matrix to represent visited coordinates
